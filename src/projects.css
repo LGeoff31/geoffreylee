@@ -1,0 +1,25 @@
+.games {
+    display:grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.languages {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.language-wrap {
+    width: 100%;
+}
+/* .python {
+    display:flex;
+    justify-content: flex-start;
+}
+.java {
+    display:flex;
+    justify-content: center;
+}
+.react {
+    display:flex;
+    justify-content: flex-end;
+} */
