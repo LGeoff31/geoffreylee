@@ -9,17 +9,17 @@ const Projects = () => {
         <h2 className="languages">Python</h2>
         <Project
           name="Avatar Game"
-          URL="https://replit.com/@akyWong/Official-Avatar-Collab#main.py "
+          replLink="https://replit.com/@akyWong/Official-Avatar-Collab#main.py "
           language="Python"
         />
         <Project
           name="Christmas Game"
-          URL="https://replit.com/@kevze/Christmas-Game#main.py"
+          replLink="https://replit.com/@kevze/Christmas-Game#main.py"
           language="Python"
         />
         <Project
           name="Tic Tac Toe"
-          URL="https://replit.com/@GeoffreyLee/Tic-tac-toe#main.py"
+          replLink="https://replit.com/@GeoffreyLee/Tic-tac-toe#main.py"
           language="Python"
         />
       </div>
@@ -27,12 +27,17 @@ const Projects = () => {
         <h2 className="languages">Java</h2>
         <Project
           name="TypeRacer"
-          URL="https://github.com/LGeoff31/Type-Racer"
+          githubLink="https://github.com/LGeoff31/Type-Racer"
           language="Java"
         />
         <Project
           name="Piano Tiles"
-          URL="https://github.com/LGeoff31/Piano-Tiles"
+          githubLink="https://github.com/LGeoff31/Piano-Tiles"
+          language="Java"
+        />
+        <Project
+          name="Boulder Game"
+          githubLink="https://github.com/LGeoff31/appa-game"
           language="Java"
         />
       </div>
@@ -40,17 +45,18 @@ const Projects = () => {
         <h2 className="languages">React</h2>
         <Project
           name="Event Guesser"
-          URL="https://event-guesser.netlify.app/"
+          liveLink="https://event-guesser.netlify.app/"
+          git="https://github.com/LGeoff31/Type-Racer"
           language="JavaScript/React"
         />
         <Project
           name="Record Guesser"
-          URL="https://record-guesser.netlify.app/"
+          liveLink="https://record-guesser.netlify.app/"
           language="JavaScript/React"
         />
         <Project
           name="Recipe Finder"
-          URL="https://recipe-finder-geoffreylee.netlify.app/"
+          liveLink="https://recipe-finder-geoffreylee.netlify.app/"
           language="JavaScript/React"
         />
       </div>
